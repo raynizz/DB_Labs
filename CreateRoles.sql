@@ -9,3 +9,5 @@ CREATE ROLE logistic_manager WITH LOGIN PASSWORD 'l1234';
 GRANT SELECT, UPDATE ON TABLE OrderDelivery, DeliveryOptions
     TO logistic_manager;
 
+REVOKE SELECT, INSERT, UPDATE, DELETE ON TABLE Orders, orderitems, contracts, customers
+    FROM sales_manager;
