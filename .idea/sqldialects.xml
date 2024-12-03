@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/ChangeTables.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/CreateRoles.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/InsertData.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/Queries.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/Queries2.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/StartTables.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/lab2/ChangeTables.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/lab2/CreateRoles.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/lab2/InsertData.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/lab2/StartTables.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/lab3/Queries.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/lab3/Queries2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/lab3/Queries3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/lab4/Task1.sql" dialect="PostgreSQL" />
   </component>
 </project>

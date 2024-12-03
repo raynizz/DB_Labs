@@ -135,6 +135,15 @@ VALUES
 
 INSERT INTO Orders (ContractID, OrderDate, TotalAmount, DeliveryCost, FinalAmount)
 VALUES
+    (1, '2024-01-15', 1300, 20, 1320),
+    (1, '2024-06-15', 300, 15, 315),
+    (5, '2024-04-25', 250.00, 5.00, 255.00),
+    (5, '2024-04-13', 1500.00, 30.00, 1530.00),
+    (5, '2024-04-16', 800.00, 20.00, 820.00),
+    (5, '2024-04-15', 1200.00, 25.00, 1225.00);
+
+INSERT INTO Orders (ContractID, OrderDate, TotalAmount, DeliveryCost, FinalAmount)
+VALUES
     (1, '2024-01-10', 1200.00, 25.00, 1225.00),
     (1, '2023-06-10', 800.00, 20.00, 820.00),
     (2, '2024-03-05', 1500.00, 30.00, 1530.00),
