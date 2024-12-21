@@ -26,6 +26,9 @@ ALTER TABLE products
     ADD CONSTRAINT products_price_check
         CHECK (price > 0.0);
 
+ALTER TABLE products
+    DROP CONSTRAINT products_price_check;
+
 ALTER TABLE customers
     RENAME COLUMN contactinfo TO email;
 
